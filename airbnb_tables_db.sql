@@ -7,16 +7,17 @@ CREATE DATABASE airbnb;
 USE airbnb;
 
 -- Create listings table
-CREATE TABLE listings (
-	id INT PRIMARY KEY,
-	name VARCHAR(255),
-	host_ID INT,
+CREATE TABLE IF NOT EXISTS listings (
+    id INT PRIMARY KEY,
+    name VARCHAR(255),
+    host_id INT,
     host_name VARCHAR(255),
+    neighborhood_group VARCHAR(255),
     neighborhood VARCHAR(255),
     latitude FLOAT,
     longitude FLOAT,
     room_type VARCHAR(255),
-    price INT,
+    price FLOAT,
     minimum_nights INT,
     number_of_reviews INT,
     last_review DATE,
