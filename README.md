@@ -1,7 +1,5 @@
 # Seattle Airbnb Data Analysis
 
-![alt text](https://github.com/[swong6]/[SWL.SeattleAirbnb]/blob/[Dashboard Image.png]/image.jpg?raw=true)
-
 ## Objective
 
 The goal of this project is to analyze Airbnb data for Seattle to extract insights and visualize findings, helping hosts and Airbnb optimize pricing, improve listing performance, and enhance guest experiences.
