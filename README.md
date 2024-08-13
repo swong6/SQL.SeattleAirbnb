@@ -9,20 +9,21 @@ The goal of this project is to analyze Airbnb data for Seattle to extract insigh
 1. **Data Cleaning:**
    - Removed `$` symbols from the `price` column and converted it to numeric values.
    - Verified there were no duplicate `id` values in the `listings` table.
+   - Listings missing `prices` were updated using `prices` from the `calendar` table.
 
 2. **Descriptive Statistics:**
    - Calculated the average price of listings.
    - Identified the most common room types.
    - Analyzed booking trends by month.
 
-3. **Advanced Analysis:**
+3. **Analysis:**
    - Performed price distribution analysis by room type.
    - Conducted availability analysis to identify high and low occupancy periods.
    - Analyzed review data to find trends in review counts over time.
 
 ## Key Findings
 
-- **Average Price:** The average price of listings is $150 per night.
+- **Average Price:** The average price of listings is $189 per night.
 - **Room Types:** The most common room type is 'Entire home/apt'.
 - **Booking Trends:** The busiest months for bookings are June and July.
 - **Price Distribution:** Prices vary significantly by room type, with 'Entire home/apt' being the most expensive.
